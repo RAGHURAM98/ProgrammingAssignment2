@@ -1,41 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
-makeCacheMatrix <- function(x = matrix()) {
-
-}
-
-## Programming Assignment 2 - R Programming
-## Data Science Specialization Track
-##
-## These two functions are part of completing the second
-## programming assignment for the R Programming course 
-## offered on Coursera through the Johns Hopkins
-## School for Public Health
-##
-## The two functions shown here help in caching the
-## inverse of a matrix.  Matrix inversion is usually
-## very computationally intensive - especially for large
-## size matrices.  Sometimes in code (and especially in loops),
-## the inverse of a matrix need only be computed once.  
-## To avoid recomputing the inverse and generating the
-## same result repeatedly, we can simply compute the
-## result once.  If you try to recompute the inverse again,
-## we have already computed this already and so we should
-## just return this pre-computed result.
-##
-
 ## makeCacheMatrix:
 ## To facilitate this caching, you first create a special
 ## matrix that will help us with this by using the
 ## makeCacheMatrix function.  The input into this function
 ## is simply a variable of type matrix.
-##
-## Usage example:
-## x <- matrix(1:4, nrow=2, ncol=2)
-## m <- makeCacheMatrix(x)
 
 makeCacheMatrix <- function(x = matrix()) {
 	# Following the same format as the assignment example
